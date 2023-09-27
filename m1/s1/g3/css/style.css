@@ -1,0 +1,26 @@
+.logo-conteiner{
+    padding: 10px;
+    text-align: center;
+}
+
+.logo-conteiner img{
+    width: 200px;
+}
+
+.yellow-bar{
+    border-top: 1px solid yellow;
+    background-color: yellow;
+    padding: 20px;
+    text-align: center;
+}
+.conteiner{
+    width: 800px;
+    margin: 0 auto;
+}
+.post-image{
+    margin: 0;
+}
+.post-image img{
+    width: 100%;
+    border-radius: 20px;
+}
