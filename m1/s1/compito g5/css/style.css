@@ -1,0 +1,45 @@
+/* Your styles here */
+html{
+    font-size: 60,5%;
+    ;
+    
+
+
+}
+
+
+.body{
+    background-position: center center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-position: center;
+    
+    
+    
+}
+.banner{
+    background-image: url(../images/banner.jpg), url(../images/logo.png);
+    background: center;
+    
+    
+}    
+
+.notebook{
+    background-image: url(../images/notebook.jpg);
+    border-radius: 25px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+
+}
+.list{
+    background-position: right;
+
+
+}
+
+    
+    
+    
+
+
+
