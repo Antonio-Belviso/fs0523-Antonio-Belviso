@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //*esercizio 1 
+
+const pets = ['dog', 'cat', 'hamster', 'redfish']
+for(let i=0;i<pets.length;i++){
+  console.log(pets[i]); }
+
+
+  //*esercizio 2
+
+  {
+pets.sort();
+console.log(pets);
+  }
+
+  //eserecizio 3
+  {
+  pets.reverse();
+console.log(pets);
+  }
+
+  //esercizio 4
+  {
+  var array = ["dog","cat","hamster","redfish"];
+array.splice(0,1, "redfish")
+array.splice(3,1, "dog")
+console.log(array);
+  }
+  //esercizio 5
+
+  const cars = [
+  {
+    brand: 'Ford',
+    model: 'Fiesta',
+    color: 'red',
+    trims: ['titanium', 'st', 'active'],
+  },
+  {
+    brand: 'Peugeot',
+    model: '208',
+    color: 'blue',
+    trims: ['allure', 'GT'],
+  },
+  {
+    brand: 'Volkswagen',
+    model: 'Polo',
+    color: 'black',
+    trims: ['life', 'style', 'r-line'],
+  },
+]
+cars.forEach(car => {
+  car['licensePlate'] = "FR45783";
+  if (car.capacity <= 5){
+    car['licensePlate'] = "HG5343";
+  }
+  if (car.capacity <= 3){
+    car['licensePlate'] = "FK4534";
+  }
+ });
+ console.log(cars); 
+ //eserciozio 6
+
+
+
+
+
+
+ //esercizio 9
+
+ const numericArray = [
+    6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
+]
+let i = 0;
+while(i<numericArray.length)
+  console.log('while:',numericArray[i]);
+  i++;
+  if(numericArray[i]==32){
+
+
+  }
+    
+
+  
+
+
+
+
+
+    </script>
+    
+    
+</body>
+</html>
