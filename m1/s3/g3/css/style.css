@@ -1,0 +1,58 @@
+
+
+body{
+    height: 100vh;
+    background: rgb(235, 32, 18);
+}
+
+.contenitore{
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    background: rgb(34, 32, 32);
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%,-50%);
+
+
+}
+
+#newtask{
+    position: relative;
+    padding: 30px 30px;
+}
+#newtask input{
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color:black;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    border: 2px solid white;
+
+}
+#newtask input:focus{
+    outline: none;
+    border-color: #0d75ec;
+}
+#newtask button{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #0d75ec;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+}
+
